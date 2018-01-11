@@ -1,25 +1,18 @@
-﻿Build started 08.01.2018 15:15:54.
-     1>Project "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\CUDA-kernels.vcxproj" on node 2 (Rebuild target(s)).
-     1>CudaClean:
-         cmd.exe /C "C:\Users\OVATN\AppData\Local\Temp\tmp44d8cd2510ec43268a93ddad5f68546e.cmd"
-         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\APPL\projects\CUDA\CUDA-managed-csharp\kernel\kernel_x64.ptx "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\kernel.cu" -clean
-         
-         C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\APPL\projects\CUDA\CUDA-managed-csharp\kernel\kernel_x64.ptx "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\kernel.cu" -clean 
-     1>CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
-         kernel.cu
-       AddCudaCompileDeps:
+﻿Build started 11.01.2018 09:26:26.
+     1>Project "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\CUDA-kernels.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /I. /FIcuda_runtime.h /c C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\kernel.cu 
      1>Project "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\CUDA-kernels.vcxproj" (1) is building "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\CUDA-kernels.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
      1>CudaBuildCore:
          Compiling CUDA source file kernel.cu...
-         cmd.exe /C "C:\Users\OVATN\AppData\Local\Temp\tmp9ccc360ac3194fbe9ed6ac809af4b7f5.cmd"
+         cmd.exe /C "C:\Users\OVATN\AppData\Local\Temp\tmp7c0e5fe9ec7b414eb65cd90eaf0f9f5f.cmd"
          "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart static  -o C:\APPL\projects\CUDA\CUDA-managed-csharp\kernel\kernel_x64.ptx "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\kernel.cu"
          
          C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart static  -o C:\APPL\projects\CUDA\CUDA-managed-csharp\kernel\kernel_x64.ptx "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\kernel.cu" 
      1>CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
          kernel.cu
      1>Done Building Project "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\CUDA-kernels.vcxproj" (CudaBuildCore target(s)).
-     1>Done Building Project "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\CUDA-kernels.vcxproj" (Rebuild target(s)).
+     1>Done Building Project "C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-kernels\CUDA-kernels.vcxproj" (Build target(s)).
 
 Build succeeded.
 

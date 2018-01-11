@@ -1,8 +1,0 @@
-C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-managed-csharp\bin\Debug\CUDA-managed-csharp.exe.config
-C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-managed-csharp\bin\Debug\CUDA-managed-csharp.exe
-C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-managed-csharp\bin\Debug\CUDA-managed-csharp.pdb
-C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-managed-csharp\bin\Debug\ManagedCuda.dll
-C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-managed-csharp\bin\Debug\ManagedCuda.pdb
-C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-managed-csharp\bin\Debug\ManagedCuda.xml
-C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-managed-csharp\obj\Debug\CUDA-managed-csharp.exe
-C:\APPL\projects\CUDA\CUDA-managed-csharp\CUDA-managed-csharp\obj\Debug\CUDA-managed-csharp.pdb
