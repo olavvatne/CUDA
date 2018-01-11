@@ -11,6 +11,11 @@ namespace CUDA_managed_csharp
     {
         static void Main(string[] args)
         {
+            RunCudaWithAKernel();
+        }
+        // Testing managed CUDA call
+        private static void RunCudaWithAKernel()
+        {
             // C# Cuda code to call kernel
 
             int N = 50000;
@@ -37,7 +42,6 @@ namespace CUDA_managed_csharp
             //Copy from memory of device to host.
             float[] h_C = d_C;
         }
-
 
         private static float[] InitWithData(int count, int mod)
         {
